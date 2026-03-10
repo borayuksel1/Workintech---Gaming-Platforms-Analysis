@@ -21,7 +21,7 @@ Veriyi doğrudan analiz etmek yerine BigQuery üzerinde 3 katmanlı (Bronze, Sil
 * **Black Friday Etkisi:** Kasım ayında her üç platformda da ortalama fiyatların 5-6 dolar bandına kadar inip dibi gördüğünü saptadım.
 * **Fiyatların Ayrışması:** İndirim rüzgarı geçip Şubat ayına geldiğimizde konsol fiyatları hızla fırlarken (Xbox ~15.8$, PS ~13.3$), Steam'in (~9$) çok daha yatay ve oyuncu dostu bir çizgide kaldığını görüyoruz.
 
-![İndirim Trendleri](<img width="846" height="547" alt="image" src="https://github.com/user-attachments/assets/7ee08c59-955c-4228-8f15-f6aeaa045eac" />)
+![İndirim Trendleri](1.png)
 
 ### 2. Çapraz Platform "Vergisi" (Fiyat Uçurumları)
 *Konsol oyuncuları, aynı oyun için bazen PC oyuncularının katbekat fazlasını ödüyor.*
