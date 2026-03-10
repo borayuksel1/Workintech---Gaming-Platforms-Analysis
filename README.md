@@ -28,21 +28,21 @@ Veriyi doğrudan analiz etmek yerine BigQuery üzerinde 3 katmanlı (Bronze, Sil
 
 * Aynı oyunları platformlar arası kıyasladığımda devasa arbitrajlar yakaladım. Örneğin *Crimson Keep* adlı bağımsız bir oyun Steam'de sadece 0.99 dolarken, konsollarda 19.99 dolara satılıyor. Arada tam **%1919** oranında bir fiyat uçurumu var! Konsol mağazaları bağımsız yayıncılara esneklik tanımıyor.
 
-![Fiyat Uçurumları](<img width="1121" height="629" alt="image" src="https://github.com/user-attachments/assets/49e79744-f03c-444d-865f-321028cfd77f" />)
+![Fiyat Uçurumları](2.png)
 
 ### 3. Katı Raflar vs. Özgür Pazar (Makine Öğrenmesi)
 *Steam ve PS fiyatları arasında çok güçlü bir korelasyon (0.81) var, ancak pazar kuralları birbirinden tamamen farklı.*
 
 * Kurduğum Lineer Regresyon modeli gösterdi ki; bir oyun genel olarak pahalıysa her yerde pahalı olma eğiliminde. Ancak aşağıdaki dağılım grafiğindeki (Scatter Plot) yatay çizgilere bakarsanız PS mağazasının katı kurallarını görebilirsiniz: Steam'de fiyatlar küsuratlı ve tamamen esnekken, PlayStation pazarında oyunlar mecburen Sony'nin belirlediği 10$, 20$, 30$, 60$ gibi sabit "fiyat raflarına" (bantlarına) oturtulmak zorunda kalıyor.
 
-![Fiyat Korelasyonu](<img width="841" height="549" alt="image" src="https://github.com/user-attachments/assets/1d5dc49e-4cd2-4285-a1e7-713b2a0061c7" />)
+![Fiyat Korelasyonu](3.png)
 
 ### 4. Ortalamalar Yanıltır: Medyan Gerçeği
 *Platformların fiyat dağılımına Kutu Grafiği (Boxplot) ile baktığımızda, PC oyunculuğunun yazılım maliyeti açısından net şekilde daha ucuz olduğunu görüyoruz.*
 
 * Uçuk fiyatlı oyunları dışarıda bıraktığımda bile Steam'in medyan (ortanca) çizgisi konsollardan bariz şekilde daha aşağıda çıkıyor. Konsollarda oyunların asıl gövdesi 10-20 dolar arasına sıkışırken, Steam çok daha alt bütçelere kadar esneyebiliyor.
 
-![Fiyat Dağılımı Boxplot](<img width="895" height="549" alt="4" src="https://github.com/user-attachments/assets/45d55fc3-edde-4811-a188-2cf830d46a8c" )
+![Fiyat Dağılımı Boxplot](4.png)
 
 
 ## 🚀 Özetle Ne Anlama Geliyor?
