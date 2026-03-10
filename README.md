@@ -42,7 +42,8 @@ Veriyi doğrudan analiz etmek yerine BigQuery üzerinde 3 katmanlı (Bronze, Sil
 
 * Uçuk fiyatlı oyunları dışarıda bıraktığımda bile Steam'in medyan (ortanca) çizgisi konsollardan bariz şekilde daha aşağıda çıkıyor. Konsollarda oyunların asıl gövdesi 10-20 dolar arasına sıkışırken, Steam çok daha alt bütçelere kadar esneyebiliyor.
 
-![Fiyat Dağılımı Boxplot](<img width="895" height="549" alt="image" src="https://github.com/user-attachments/assets/5db6172c-3c6d-4c48-ad91-0dfa1e564797" />)
+![Fiyat Dağılımı Boxplot](<img width="895" height="549" alt="4" src="https://github.com/user-attachments/assets/45d55fc3-edde-4811-a188-2cf830d46a8c" )
+
 
 ## 🚀 Özetle Ne Anlama Geliyor?
 * **Bağımsız Geliştiriciler (Indie) İçin:** Kitlenizi büyütmek, mikro-fiyatlandırma yapabilmek ve pazarda esnek kalabilmek için Steam açık ara en iyi ekosistem.
